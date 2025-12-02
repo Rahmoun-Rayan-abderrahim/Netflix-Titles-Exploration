@@ -38,7 +38,7 @@ Open notebooks/netflix_analysis.ipynb to start exploring the project.
 Dataset
 
 This project uses the Netflix Movies & TV Shows dataset from Kaggle:
-
+```
 import kagglehub
 
 # Download the latest version
@@ -48,6 +48,7 @@ print("Dataset downloaded to:", path)
 ```
 
 Place the CSV inside the data/ folder for proper GitHub tracking.
+
 ```bash
 Project Structure
 netflix-analysis/
