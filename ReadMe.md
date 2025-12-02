@@ -42,9 +42,10 @@ This project uses the Netflix Movies & TV Shows dataset from Kaggle:
 import kagglehub
 
 # Download the latest version
+```bash
 path = kagglehub.dataset_download("shivamb/netflix-shows")
 print("Dataset downloaded to:", path)
-
+```
 
 Place the CSV inside the data/ folder for proper GitHub tracking.
 ```bash
@@ -69,6 +70,7 @@ Tools: JupyterLab, KaggleHub, Git & GitHub
 
 Optional: GitHub CLI for repo creation
 
+
 Key Analysis
 
 Count of Movies vs TV Shows
@@ -84,3 +86,4 @@ Handling missing values & mixed date formats
 Distribution of content ratings
 
 Top directors and actors
+
